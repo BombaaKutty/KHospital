@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'KHospital.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'medicioK',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Medicio',
         'USER': 'root',
         'PASSWORD': '',
-        'host': '127.0.0.1',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
